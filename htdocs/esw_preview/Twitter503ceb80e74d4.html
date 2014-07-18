@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Twitter</title>
+<style>
+
+</style>
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+</head>
+<body style="margin: 0px; padding: 0px; overflow:hidden;">
+
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 6000,
+  width: 260,
+  height: 160,
+  theme: {
+    shell: {
+      background: "#333333",
+      color: "#ffffff"
+    },
+    tweets: {
+      background: "#000000",
+      color: "#ffffff",
+      links: "#4aed05"
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: "1" == "1" ? true: false,//true,
+    avatars: "1" == "1" ? true : false, //false,
+    behavior: 'all'
+  }
+}).render().setUser("kcredditcreeps").start();
+</script>
+
+
+
+  </body>
+</html>

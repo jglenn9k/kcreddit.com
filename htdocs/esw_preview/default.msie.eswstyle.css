@@ -1,0 +1,49 @@
+div.ESWuserButton1:hover {
+	background-image: none;
+	height: 10px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/button1.gif');
+}
+#man1 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/man1.png');
+}
+#man2 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/man2.png');
+}
+#man3 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/man3.png');
+}
+#man4 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/man4.png');
+}
+#house {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/house.png');
+}
+#content1 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/cont1.png');
+}
+#content2 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/cont2.png');
+}
+#content3 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/cont3.png');
+}
+.ESWpageContent1 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/topic1.png');
+}
+.ESWpageContent2 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/topic2.png');
+}
+.ESWpageContent3 {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='crop', src='img/topic3.png');
+} img.draggable { fakeprop: expression( _IE6PNGImgFix(this) ); }  div.ESWuserButton0, div.ESWuserButton1 { fakeprop: expression( _IE6PNGDivFix(this) ); } 

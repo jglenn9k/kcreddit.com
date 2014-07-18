@@ -1,0 +1,448 @@
+/*
+================================================================================
+|                                     TAGS                                     |
+================================================================================
+*/
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(img/bg_menu.jpg);
+	background-repeat:repeat-y;
+}
+a {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #393939;
+}
+ul {
+  	margin: 0px;
+	padding-right: 0px;
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: url(img/bullet.gif);
+	margin-left: 25px;
+	padding-left: 25px;	
+}
+li {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #7D3939;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+#ESWpageTitle, #ESWpageTagline {
+	z-index: 100;
+}
+#ESWpageTitle {
+	font-family: Arial;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;  
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 462px;
+	top: 30px;
+	text-transform:lowercase;
+	width:500px;
+}
+#ESWpageTitle p{
+	font-family: Arial;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;  
+	text-transform:lowercase;
+	width:500px;
+}
+
+#ESWpageTagline {
+	font-family: Times New Roman PS MT;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color:#EE2200;  
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 540px;
+	top: 72px;
+	text-transform:lowercase;
+	width:500px;
+}
+#ESWpageTagline p{
+	font-family: Times New Roman PS MT;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color:#EE2200;  
+	text-transform:lowercase;
+	width:500px;
+}
+
+/*
+================================================================================
+|                                     MENU                                     |
+================================================================================
+*/
+#ESWuserMenuPosition {
+	position: absolute;
+	left: 39px;
+	top: 215px;
+	z-index: 100;
+}
+#ESWuserMenu {
+	position: static;
+	width: 197px;
+}
+div.ESWuserButton0 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #6A6D6C;
+	border-left-width: 6px;
+	border-left-style: solid;
+	border-left-color: #666666;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-left: 20px;
+	margin: 0px;
+}
+div.ESWuserButton0:hover {
+	color: #D52612;
+	border-left-width: 6px;
+	border-left-style: solid;
+	border-left-color: #D52612;
+}
+div.ESWuserButton1 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #494949;
+	border-left-width: 6px;
+	border-left-style: solid;
+	border-left-color: #666666;
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 20px;
+	margin: 0px;
+}
+div.ESWuserButton1:hover {
+	color: #E39A92;	
+	background-image: url(img/button1.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+/*
+================================================================================
+|                                    CONTENT                                   |
+================================================================================
+*/
+.ESWpageContent {
+	padding: 0px;
+	position: absolute;
+	width: 618px;
+	left: 263px;
+	top: 196px;
+}
+.ESWpageContent1 {
+	padding: 0px;
+	position: absolute;
+	width: 202px;
+	left: 263px;
+	top: 460px;
+	background-image:url(img/topic1.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.ESWpageContent2 {
+	padding: 0px;
+	position: absolute;
+	width: 202px;
+	left: 493px;
+	top: 458px;
+	background-image:url(img/topic2.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+
+}
+.ESWpageContent3 {
+	padding: 0px;
+	position: absolute;
+	left: 716px;
+	top: 454px;
+	width: 180px;
+	background-image:url(img/topic3.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.ESWpageContent4 {
+	padding: 0px;
+	position: absolute;
+	left: 145px;
+	top: 513px;
+	width: 90px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #E91D00;  
+	margin: 0px;
+	padding: 0px;
+}
+p, div.ESWuserTable TD {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #393939;
+  	margin: 0px;
+	padding: 0px;
+}
+.class1{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #072C67;  
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.topic {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #1C1C1C;
+  	margin: 0px;
+	padding: 0px;
+	width: 460px;
+	padding-top: 0px;
+	padding-left: 22px;
+}
+.topic_h1 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #1C1C1C;  
+	margin: 0px;
+	padding: 0px;
+	width: 460px;
+	padding-top: 10px;
+	padding-left: 22px;
+}
+.topic_btm1 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #E91D00;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 9px;
+}
+.topic_btm2 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #072C67;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 12px;
+}
+.topic_btm3 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #E91D00;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 17px;
+	margin-left: 12px;
+}
+.menu_btm1 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #C44E41;  
+	margin: 0px;
+	padding: 0px;
+}
+.menu_btm2 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #767575;  
+	margin: 0px;
+	padding: 0px;
+}
+
+.Hd1 {
+	font-family: Tahoma;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: bold;
+	color: #393938;  
+	margin: 0px;
+	padding: 0px;
+	padding-top: 25px;
+	padding-left: 22px;
+	padding-bottom: 0px;
+}
+.Hd2 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #DC1000;  
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-left: 190px;
+	padding-bottom: 0px;
+}
+/*
+================================================================================
+|                                    DESIGN                                    |
+================================================================================
+*/
+#hr1 {
+	background-image: url(img/hr1.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 736px;
+	height: 187px;
+	left: 0px;
+	top: 0px;
+}
+#main_width_bg, #header_bg {
+	background-image: url(img/bg.jpg);
+	background-repeat: repeat-x;
+	height: 187px;
+	position: absolute;
+	width:100%;
+	
+}
+#man1 {
+	background-image: url(img/man1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 17px;
+	height: 44px;
+	left: 150px;
+	top: 128px;
+}
+#man2 {
+	background-image: url(img/man2.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 28px;
+	height: 45px;
+	left: 270px;
+	top: 117px;
+}
+#man3 {
+	background-image: url(img/man3.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 31px;
+	height: 29px;
+	left: 573px;
+	top: 132px;
+}
+#man4 {
+	background-image: url(img/man4.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 87px;
+	height: 120px;
+	left: 760px;
+	top: 260px;
+}
+#content {
+	background-image:url(img/cont_bg.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 618px;
+	height: 195px;
+	left: 263px;
+	top: 196px;
+}
+#content1 {
+	background-image:url(img/cont1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 32px;
+	height: 30px;
+	left: 263px;
+	top: 460px;
+}
+#content2 {
+	background-image:url(img/cont2.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 33px;
+	height: 32px;
+	left: 493px;
+	top: 458px;
+}
+#content3 {
+	background-image:url(img/cont3.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 33px;
+	height: 35px;
+	left: 728px;
+	top: 454px;	
+}
+#house {
+	background-image: url(img/house.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 81px;
+	height: 60px;
+	left: 53px;
+	top: 520px;
+}
+
+/* TABLE PART START */
+
+div.ESWuserTable
+{
+	height: 93px;
+}
+
+div.ESWuserTable TABLE
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+div.ESWuserTable TD
+{
+    border: 1px solid black;
+}
+
+
+
+/* TABLE PART END */

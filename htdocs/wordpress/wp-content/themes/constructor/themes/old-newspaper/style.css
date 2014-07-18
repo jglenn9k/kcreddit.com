@@ -1,0 +1,64 @@
+/*
+Theme Name: Old Newspaper
+Theme URI: 
+Description: Very simple theme, without any background images
+Version: 1.6.0
+Author: Anton Shevchuk
+Author URI: http://anton.shevchuk.name
+*/
+
+#menu {
+    margin-left:-1px;
+    border-top: 3px solid #333333;
+    border-bottom: 2px dotted #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    background:#FFF7E5;
+    margin-bottom:0
+}
+.current-menu-item > a {
+    text-decoration:underline;
+}
+
+#wrapheader {
+    background:#e9e1d1
+}
+
+#title {
+    margin-top:10px;
+}
+article header {
+    margin:0;
+}
+article footer {
+    border-bottom: 2px dotted #333333;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+#content{
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 3px solid #333333;
+}
+.thread-even, .even {
+    border: 1px solid #AAAAAA;
+}
+.thread-odd, .odd {
+    border: 1px solid #AAAAAA;
+}
+.layout-right #container {
+    border-right: 1px solid #333;
+}
+.layout-left #container {
+    border-left: 1px solid #333;
+}
+.layout-two #container {
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+li.widget {
+    border-bottom:1px solid #777
+}
+#footer .copy{
+    text-align:right;
+}

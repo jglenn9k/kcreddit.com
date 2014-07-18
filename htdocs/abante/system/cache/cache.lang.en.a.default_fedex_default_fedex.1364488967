@@ -1,0 +1,19 @@
+a:33:{s:18:"default_fedex_name";s:5:"FEDEX";s:13:"text_shipping";s:8:"Shipping";s:12:"text_success";s:42:"Success: You have modified shipping FEDEX!";s:20:"default_fedex_status";s:6:"Status";s:17:"default_fedex_key";s:115:"
+			Fedex Production Key:<br /><span class="help">Enter the Fedex Production Key Assigned to You, Required. </span>";s:22:"default_fedex_password";s:58:"Fedex Production Password:<br /><span class="help"></span>";s:21:"default_fedex_account";s:108:"
+			Account Number:<br /><span class="help">Enter the fedex Account Number assigned to you, required.</span>";s:19:"default_fedex_meter";s:76:"Fedex Meter Number:<br /><span class="help">Enter FedEx Meter Number.</span>";s:21:"default_fedex_address";s:69:"Address:<br /><span class="help">Shipping from street address.</span>";s:18:"default_fedex_city";s:56:"City:<br /><span class="help">Shipping from city.</span>";s:19:"default_fedex_state";s:72:"State:<br /><span class="help">Shipping from state (two letters).</span>";s:17:"default_fedex_zip";s:71:"Zip/postal code:<br /><span class="help">Shipping from Zip-code.</span>";s:21:"default_fedex_country";s:75:"Country:<br /><span class="help">Shipping from country(two letters).</span>";s:24:"default_fedex_quote_type";s:92:"
+			Quote Type:<br /><span class="help">Quote for Residential or Commercial Delivery.</span>";s:36:"default_fedex_quote_type_residential";s:11:"Residential";s:35:"default_fedex_quote_type_commercial";s:10:"Commercial";s:22:"default_fedex_add_chrg";s:96:"
+			Additional Charges:<br /><span class="help">Additional charge applied to fedex quote.</span>";s:33:"default_fedex_default_fedex_us_01";s:23:" FEDEX First Overnight ";s:33:"default_fedex_default_fedex_us_02";s:27:" FEDEX Priority Overnight  ";s:33:"default_fedex_default_fedex_us_03";s:27:" FEDEX Standard Overnight  ";s:33:"default_fedex_default_fedex_us_04";s:15:" FEDEX 2nd Day ";s:33:"default_fedex_default_fedex_us_05";s:22:" FEDEX Express Saver  ";s:33:"default_fedex_default_fedex_us_06";s:15:" FEDEX Ground  ";s:24:"default_fedex_sort_order";s:11:"Sort Order:";s:24:"default_fedex_autoselect";s:181:"
+			Auto Select:<br /><span class="help">You can set to skip shipping selection page if there is only one shipping option. This shipping method will be selected automatically</span>";s:29:"default_fedex_accept_payments";s:210:"
+			Accept these payments:<br /><span class="help">If only specific payment methods are needed for this shipping method, select them here. If nothing selected, all available payment methods will be shown</span>";s:16:"error_permission";s:61:"Warning: You do not have permission to modify shipping FEDEX!";s:13:"error_account";s:20:"Account ID Required!";s:11:"error_meter";s:24:"Fedex Meter ID Required!";s:18:"default_fedex_note";s:974:"To obtain your Meter Number and Authorization Key, you will need to follow these steps:</br>
+            Go to <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br>
+            Login in with FedEx username and password or click Register Now if they don't have one.<br>
+            Click "Technical Resources" (left side).<br>
+            Under that click "FedEx web services for shipping.<br>
+            Click on "Move To Production" (right side).<br>
+            Scroll down to button and click "Obtain Production Key".<br>
+            On form choose "No" on question 1.<br>
+            Check the first box on question 2.<br>
+            Choose "Corporate Developer" on question 3.<br>
+            Accept agreement.<br>
+            Fill out the form (do not use dashes in the account number).<br>
+            Receive meter number and key instantly.  Your Production Password will be emailed to you once you complete the above steps.";s:18:"default_fedex_test";s:81:"Test Mode:<br /><span class="help">Use the live or testing gateway server?</span>";s:20:"default_fedex_test_1";s:5:" Yes ";s:20:"default_fedex_test_0";s:4:" No ";}
